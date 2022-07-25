@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9C835F;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(233, 175, 16);
+    margin-left: 1.25rem;
+}
+header img {
+    margin-left: 1.25rem;
+    height: 30px;
+    width: 30px;
+}
+main {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    height: 100vh;
+    letter-spacing: 0.2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.konten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30%;
+}
+#konten-player {
+    margin-left: 20%;
+}
+
+#konten-com {
+    margin-right: 20%;
+}
+.gambar-game {
+    margin: 20px auto;
+    height: 4rem;
+    width: 4rem;
+}
+.konten-default{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    margin: 0.1rem auto;
+}
+.klik{
+    background-color: #C4C4C4;
+    border-radius:20px;
+}
+
+.vs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.teks-vs {
+    color: rgb(179, 16, 5);
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 80%;
+}
+
+.papan-result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 20vw;
+    height: 20vh;
+    background-color: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    margin-top: 30%;
+}
+
+.papan-result-draw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 20vw;
+    height: 20vh;
+    background-color: #035B0C;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
+    margin-top: 30%;
+}
+
+.text-result{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.refresh{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top : -20%;
+}
+
+.refresh img {
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}
